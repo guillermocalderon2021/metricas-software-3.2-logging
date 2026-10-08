@@ -1,0 +1,5 @@
+node_modules/
+logs/*.jsonl
+evidencia.txt
+.env
+.DS_Store

@@ -1,0 +1,23 @@
+{
+  "name": "metricas-software-3-2-logging",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "doctor": "node scripts/doctor.js",
+    "exercise": "node scripts/exercise.js",
+    "evidence": "node scripts/evidence.js",
+    "logs:sample": "node scripts/show-logs.js",
+    "check:sensitive": "node scripts/check-sensitive.js",
+    "evidence:show": "node scripts/show-evidence.js"
+  },
+  "dependencies": {
+    "express": "5.2.1",
+    "pino": "10.4.0",
+    "pino-http": "11.0.0"
+  }
+}
